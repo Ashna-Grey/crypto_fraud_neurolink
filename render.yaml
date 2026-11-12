@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: crypto-fraud-neurosymbolic
+    runtime: docker
+    plan: starter
+    healthCheckPath: /health
+    autoDeployTrigger: commit
